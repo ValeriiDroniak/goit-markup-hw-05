@@ -309,6 +309,8 @@ img {
   line-height: 1.19;
 }
 
+/* Соціальні мережі */
+
 .icon-social {
   display: flex;
   margin-left: auto;
@@ -327,15 +329,18 @@ img {
   justify-content: center;
   align-items: center;
 
-  color: var(--primary-icon-color);
   border-radius: 50%;
+}
+
+.card-content .social-link {
+  color: var(--primary-icon-color);
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:hover,
-.social-link:focus {
+.card-content .social-link:hover,
+.card-content .social-link:focus {
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
 }
@@ -443,6 +448,8 @@ footer {
   color: var(--accent-color);
 }
 
+/* Приєднайтесь */
+
 .social-title {
   margin-top: 0;
   margin-bottom: 20px;
@@ -458,6 +465,8 @@ footer {
 .social .social-link {
   background: rgba(255, 255, 255, 0.1);
   color: var(--primary-bg-color);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social .social-link:hover,
@@ -553,7 +562,7 @@ footer {
   padding: 63px 24px;
   background-color: rgba(33, 150, 243, 0.9);
 
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
